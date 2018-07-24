@@ -30,7 +30,7 @@ Feel free to contribute :)
 
 <pre>
 use_frameworks!
-pod 'netfox'
+pod 'netfox', :configurations => ['Debug']
 </pre>
 
 ### Carthage
@@ -53,7 +53,9 @@ The above folder contains 3 subfolders: Core, iOS and OSX.
 - If you target on iOS keep only Core and iOS folders (remove OSX folder)
 - If you target on OSX keep only Core and OSX folders (remove iOS folder)
 
-## Start
+## Start (netfox starts automatically together with your app)
+
+- no longer needed
 
 #### Swift
 ```swift
